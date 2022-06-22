@@ -1,0 +1,13 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+.main_div {
+    /* background: yellowgreen; */
+
+    /* background: linear-gradient(40deg, red, black, rgba(104, 228, 218, 0.568)); */
+
+    background: radial-gradient(red, black, yellow);
+    height: 80vh;
+}
