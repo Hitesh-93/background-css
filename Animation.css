@@ -12,5 +12,14 @@
 .box {
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: yellow;
+    /* position: absolute; */
+    /* transform: rotate(90deg);
+    transition: all ease-in 4s; */
+
+}
+
+.box:hover {
+    transform: rotate(90deg);
+    transition: all ease-in 5s;
 }
