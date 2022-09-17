@@ -4,31 +4,37 @@
 }
 
 .main {
-    background-color: yellow;
-    height: 80vh;
+    background-color: yellowgreen;
+    height: 180vh;
     width: 100%;
-    /* position: fixed; */
+    position: relative;
 
 
 }
 
 .box {
     background-color: red;
-    background-color: aquamarine !important;
+    background-color: dodgerblue !important;
     background-color: blue;
     height: 100px;
     width: 100px;
+
     /* position: relative;
-    top: 5rem;
-    left: 5rem; */
+    top: 15rem;
+    left: 25rem; */
 
-    position: absolute;
-    top: 0rem;
-    left: 2rem;
-
+    /* position: absolute;
+    bottom: 5rem;
+    left: 2rem; */
     
-    /* position: fixed; */
-    /* right: 10rem;
-    bottom: 2rem; */
+    /* position: sticky; */
+    /* position: static; */
 
+    position: fixed;
+    right: 30rem;
+    bottom: 20rem;
+
+
+    /* Box Shadow   x y spread */
+    box-shadow: 30px 20px 20px black;
 }
