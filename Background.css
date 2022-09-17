@@ -8,18 +8,17 @@
     width: 100vw;
     background-color: yellow;
     background-image: url('img.jpg');
-    /* background-attachment: fixed; */
-    background-position: left center;
     background-repeat: no-repeat;
-    background-size: 20% 30%;
+    background-attachment: fixed;
+    background-position: center ;
+    background-size: 300px 350px;
 
 }
 
 .box {
     height: 10em;
     width: 10em;
-    background-color: yellowgreen;
-    /* background-attachment: fixed;  */
+    background-color: yellowgreen; 
     /* position: fixed; */
 
 } 
