@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    background-color: lightcoral;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+.box {
+    background-color: yellow;
+    height: 30vh;
+    width: 15vw;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+
+    /* transform: translate(500px, 150px); */
+    /* transform: rotate(360deg); */
+    /* transform: scale(2,3) ; */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(3); */
+    /* transform: skew(2deg, 10deg); */
+    /* transform: skewX(-20deg); */
+    /* transform: skewY(40deg); */
+
+    transition: all ease-in 10s;
+}
+
+.box:hover {
+    transform: rotate(100deg);
+    background-color: olive;
+}
